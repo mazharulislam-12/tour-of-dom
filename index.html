@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of dom</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .importent-pleaces{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Wellcome to my dom</h1> 
+    </header>
+
+    <main id="main-container">
+       <section>
+        <h1>My awesome dom</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam odio iure iste provident eaque magnam cupiditate, placeat, voluptatem maiores harum consectetur suscipit impedit aperiam reiciendis distinctio neque modi blanditiis expedita.</p>
+        <ul>
+            <li>Dom 1</li>
+            <li>Dom 2</li>
+            <li>Dom 3</li>
+            <li>Dom 4</li>
+        </ul>
+       </section>
+        
+       <section>
+        <h1 id="fruits-title">Fruits I like </h1>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Carrot</li>
+        </ul>
+       </section>
+
+       <section id="places-container">
+        <h1 id="places-title">Pleaces I like to visite</h1>
+        <ul id="places-list">
+            <li class="importent-pleaces">Bandorbon</li>
+            <li class="importent-pleaces">Katabon</li>
+            <li class="importent-pleaces">Sundorbon</li>
+            <li>shalbon</li>
+        </ul>
+       </section>
+
+    </main>
+    <script>
+        // const liCollaction = document.getElementsByTagName('li');
+        // // console.log(liCollaction);
+        // for (const li of liCollaction) {
+        //     // console.log(li.innerText);
+        // }
+        // const allHeading = document.getElementsByTagName('h1');
+        // for (const h1 of allHeading) {
+        //     // console.log(h1.innerText);
+        // }
+        // const fruitsTitle = document.getElementById('fruits-title'){
+        //     fruitsTitle.innerText = 'Fruits change by js';
+        // }
+        // const places = document.getElementsByClassName('importent-pleaces'){
+        //     for (const place of places) {
+        //        console.log(place);
+        //     }
+        // }
+
+
+
+            //quary selactor
+            const someLi = document.querySelectorAll('#places-title')
+                // console.log(someLi); 
+            
+
+    </script>
+    <script src="js/append.js"></script>
+    <script src="js/dom.js"></script>
+</body>
+</html>

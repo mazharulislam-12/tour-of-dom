@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quallay Selctor</title>
+</head>
+<body>
+
+     <section>
+        <h1 id="title" class="heading-title title1 ">Fruits I like </h1>
+        <ul class="unOrderList">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Carrot</li>
+        </ul>
+       </section>
+
+
+
+       <script>
+        //query selector all
+        const someLi = document.querySelectorAll('.unOrderList li')
+            for (const li of someLi) {
+                // console.log(li.innerText);
+            }
+        
+
+            // query selector
+            const someLi = document.querySelector('.unOrderList li');
+            console.log(someLi);
+       </script>
+    
+</body>
+</html>
